@@ -1,0 +1,30 @@
+:root {
+  --primary-green-light: hsl(148, 38%, 91%);
+  --primary-green-medium: hsl(169, 82%, 27%);
+  --primary-red: hsl(0, 66%, 54%);
+
+  --neutral-white: hsl(0, 0%, 100%);
+  --neutral-grey-medium: hsl(186, 15%, 59%);
+  --neutral-grey-darker: hsl(187, 24%, 22%);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Karla", sans-serif;
+  background: var(--primary-green-light);
+}
+form {
+  width: min(700px, 80%);
+  background: var(--neutral-white);
+  margin: 0 auto;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
