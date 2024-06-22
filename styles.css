@@ -24,7 +24,7 @@ body {
 }
 .form-container {
   background: var(--neutral-white);
-  width: min(850px, 80%);
+  width: min(850px, 95%);
   padding: 1em;
   margin: 0 auto;
 }
