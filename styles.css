@@ -48,14 +48,16 @@ textarea {
 input[type="text"],
 input[type="email"],
 textarea {
+  font-family: inherit;
   padding: 1em;
+  border: 2px solid var(--neutral-grey-medium);
 }
 
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
   border-color: var(--primary-green-medium);
-  outline: 2px solid transparent;
+  outline: 3px solid transparent;
 }
 /* input[type="text"],
 input[type="email"],
