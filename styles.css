@@ -22,6 +22,9 @@ body {
   align-items: center;
   height: 100vh;
 }
+.rounded {
+  border-radius: 5px;
+}
 .form-container {
   background: var(--neutral-white);
   width: min(850px, 95%);
@@ -46,8 +49,20 @@ input[type="text"],
 input[type="email"],
 textarea {
   padding: 1em;
+  border-color: var(--neutral-grey-medium);
 }
 
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  border-color: var(--primary-green-medium);
+  outline: 2px solid transparent;
+}
+/* input[type="text"],
+input[type="email"],
+textarea:active {
+  border: 1px solid var(--primary-green-medium);
+} */
 fieldset {
   border: none;
   margin-top: 1em;

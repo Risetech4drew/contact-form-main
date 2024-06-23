@@ -22,12 +22,13 @@
     <title>Frontend Mentor | Contact form</title>
   </head>
   <body>
-    <div class="form-container">
+    <div class="form-container rounded">
       <h1 class="form-heading">Contact Us</h1>
       <form action="" method="">
         <div class="">
           <label for="first-name"
             >First Name<input
+              class="rounded"
               type="text"
               id="first-name"
               name="first-name"
@@ -35,6 +36,7 @@
           /></label>
           <label for="last-name"
             >Last Name<input
+              class="rounded"
               type="text"
               id="last-name"
               name="first-name"
@@ -42,10 +44,16 @@
           /></label>
         </div>
         <label for="email"
-          >Email Address<input type="email" id="email" name="email" required />
+          >Email Address<input
+            class="rounded"
+            type="email"
+            id="email"
+            name="email"
+            required
+          />
         </label>
         <label>Query type</label>
-        <label class="radio-container row" for="general-query"
+        <label class="radio-container row rounded" for="general-query"
           ><input
             class="inline"
             type="radio"
@@ -55,7 +63,7 @@
           />
           General Enquiry
         </label>
-        <label class="radio-container row" for="support-request"
+        <label class="radio-container row rounded" for="support-request"
           ><input
             class="inline"
             type="radio"
@@ -69,6 +77,7 @@
         <label for="message">
           Message
           <textarea
+            class="rounded"
             name="message"
             id="message"
             cols="30"
@@ -84,7 +93,7 @@
             name="consent-to-contact"
           />I consent to being contacted by the team</label
         >
-        <button>Submit</button>
+        <button class="rounded">Submit</button>
       </form>
     </div>
 
