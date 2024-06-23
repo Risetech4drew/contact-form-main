@@ -34,6 +34,8 @@ body {
 label {
   display: block;
   margin-top: 1em;
+  color: var(--neutral-grey-darker);
+  font-weight: 400;
 }
 input,
 textarea {
@@ -59,14 +61,35 @@ fieldset {
   display: flex;
 }
 
-.radio-border {
+.radio-container {
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
   border: 1px solid var(--neutral-grey-medium);
-  padding: 0.5em 1em;
+  padding: 1em;
   align-items: center;
 }
+/* hiding default browser radio input */
+.radio-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+/* custom radio */
+
 button {
-  width: 60%;
-  margin: 0 auto;
+  display: block;
+  width: 100%;
+  margin: 2em 0 0 0;
+  padding: 0.75em 0;
+  border: none;
+  background: var(--primary-green-medium);
+  color: var(--neutral-white);
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
 }
 /* .checkbox-label {
   align-items: center;
