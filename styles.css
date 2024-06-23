@@ -113,7 +113,7 @@ fieldset {
   border-radius: 50%;
   transform: scale(0);
   transition: 120ms transfrom ease-in-out;
-  box-shadow: inset 1em 1em var(--neutral-grey-medium);
+  box-shadow: inset 1em 1em var(--primary-green-medium);
 }
 .radio-container input:checked::before {
   transform: scale(1);
@@ -123,7 +123,7 @@ button {
   display: block;
   width: 100%;
   margin: 2em 0 0 0;
-  padding: 0.75em 0;
+  padding: 1em 0.5em;
   border: none;
   background: var(--primary-green-medium);
   color: var(--neutral-white);
